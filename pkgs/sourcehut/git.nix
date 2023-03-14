@@ -9,13 +9,13 @@
 , unzip
 }:
 let
-  version = "0.78.20";
+  version = "0.83.2";
 
   src = fetchFromSourcehut {
     owner = "~sircmpwn";
     repo = "git.sr.ht";
     rev = version;
-    sha256 = "sha256-rZsTtHobsgRVmMOjPa1fiKrPsNyFu/gOsmO0cTl5MqQ=";
+    sha256 = "sha256-QJCFFUModBNPxYU2ErfirK6FsUl5tXf/waVBELMhQ2A=";
   };
 
   gitApi = buildGoModule ({

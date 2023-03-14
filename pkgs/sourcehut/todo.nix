@@ -14,13 +14,13 @@
 
 buildPythonPackage rec {
   pname = "todosrht";
-  version = "0.72.2";
+  version = "0.74.4";
 
   src = fetchFromSourcehut {
     owner = "~sircmpwn";
     repo = "todo.sr.ht";
     rev = version;
-    sha256 = "sha256-FLjVO8Y/9s2gFfMXwcY7Rj3WNzPEBYs1AEjiVZFWsT8=";
+    sha256 = "sha256-iMussn/GBF4R930TTWGem73DSgIJEIg0BIF5cBXUJwk=";
   };
 
   postPatch = ''

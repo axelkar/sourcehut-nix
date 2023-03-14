@@ -12,13 +12,13 @@
 
 buildPythonPackage rec {
   pname = "hgsrht";
-  version = "0.31.3";
+  version = "0.32.1";
 
   src = fetchFromSourcehut {
     owner = "~sircmpwn";
     repo = "hg.sr.ht";
     rev = version;
-    sha256 = "4Qe08gqsSTMQVQBchFPEUXuxM8ZAAQGJT1EOcDjkZa0=";
+    sha256 = "Or2Yb0YyZ2TkZSItmt8XC5yXUTzCJ8LYZWvrs9TtvtU=";
     vc = "hg";
   };
 

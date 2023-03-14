@@ -7,13 +7,13 @@
 
 buildPythonPackage rec {
   pname = "hubsrht";
-  version = "0.14.14";
+  version = "0.17.0";
 
   src = fetchFromSourcehut {
     owner = "~sircmpwn";
     repo = "hub.sr.ht";
     rev = version;
-    sha256 = "sha256-4n6oQ+AAvdJY/5KflxAp62chjyrlSUkmt319DKZk33w=";
+    sha256 = "sha256-gWinqkw9FRx5VQoo3w4m3sfRG08B+83wU8NJB3GgNLI=";
   };
 
   propagatedBuildInputs = [

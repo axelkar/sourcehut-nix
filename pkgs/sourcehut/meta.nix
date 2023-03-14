@@ -19,13 +19,13 @@
 , unzip
 }:
 let
-  version = "0.61.3";
+  version = "0.64.6";
 
   src = fetchFromSourcehut {
     owner = "~sircmpwn";
     repo = "meta.sr.ht";
     rev = version;
-    hash = "sha256-wMcpdRSRvxYEV163mdTGOemk62gljua89SOtwe6qGXU=";
+    hash = "sha256-UZrDOy5iPmLUh2Cq1oQD1UbtE7N9sKxfpq+bPtuBYRQ=";
   };
 
   metasrht-api = buildGoModule ({

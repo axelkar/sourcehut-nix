@@ -8,13 +8,13 @@
 
 buildPythonPackage rec {
   pname = "mansrht";
-  version = "0.15.26";
+  version = "0.16.0";
 
   src = fetchFromSourcehut {
     owner = "~sircmpwn";
     repo = "man.sr.ht";
     rev = version;
-    sha256 = "sha256-5xZH6DrTXMdWd26OGICp7lZ/QDjACIa7zNUJHB7jzGo=";
+    sha256 = "sha256-QxM9WwqvWyqHfck+P+CMoQ2p+8ZdbO8KOJ9qa40nsWI=";
   };
 
   propagatedBuildInputs = [
